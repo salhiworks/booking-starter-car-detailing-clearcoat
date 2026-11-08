@@ -1,0 +1,9 @@
+/*
+ * The packaged dashboard keeps its own design. The site brands it with one
+ * thing — its accent, per appearance (INTEGRATION.md §10). Clearcoat's petrol:
+ * the deep finish colour with white text in Light; in Dark, the lit petrol of
+ * the site's graphite sections with graphite text. Owner monogram, primary
+ * buttons, Confirm, focus rings, selection and the schedule's "now" line all follow it.
+ */
+:root .pbe-admin[data-mode='light'] { --pbe-accent: #0b5d68; --pbe-accent-text: #ffffff; } /* ≈7.6:1 on white; white text ≈7.6:1 */
+:root .pbe-admin[data-mode='dark']  { --pbe-accent: #8fd0d8; --pbe-accent-text: #0c0f11; } /* ≈11:1 on a near-black dashboard; text ≈11:1 */
